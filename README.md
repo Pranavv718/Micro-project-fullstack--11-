@@ -57,28 +57,21 @@ The project demonstrates **full-stack development** concepts — integrating fro
 ## ⚙️ Setup Instructions
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/Pranavv718/Micro-project-fullstack--11-.git
-
-# 2. Navigate to the project directory
-cd Micro-project-fullstack--11-
-
-# 3. Create a virtual environment
+### 1️⃣ Clone the repository
+```bash
+# 1. git clone https://github.com/Pranavv718/Micro-project-fullstack--11-.git
+# 2. cd Micro-project-fullstack--11-
+Make sure you have Python 3.9+ installed on your system.
 python -m venv venv
-
-# 4. Activate the virtual environment
-venv\Scripts\activate   # On Windows
-source venv/bin/activate  # On macOS/Linux
-
-# 5. Install dependencies
-python -m pip install -r requirements.txt
-
-# 6. Run database migrations
-cd room_slot
+venv\Scripts\activate       # for Windows
+# or
+source venv/bin/activate    # for macOS/Linux
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install django djangorestframework pillow django-crispy-forms
+python manage.py makemigrations
 python manage.py migrate
-
-# 7. Create superuser (for admin access)
 python manage.py createsuperuser
-
-# 8. Run the development server
 python manage.py runserver
+
+
+
