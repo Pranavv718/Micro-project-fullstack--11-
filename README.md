@@ -57,16 +57,25 @@ The project demonstrates **full-stack development** concepts — integrating fro
 ## ⚙️ Setup Instructions
 
 git clone https://github.com/Pranavv718/Micro-project-fullstack--11-.git
+
 cd Micro-project-fullstack--11-
+
 python -m venv venv
-venv\Scripts\activate       # for Windows
-# or
-source venv/bin/activate    # for macOS/Linux
+
+venv\Scripts\activate     
+
+source venv/bin/activate    
+
 python -m pip install --upgrade pip setuptools wheel
+
 python -m pip install django djangorestframework pillow django-crispy-forms
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
+
 python manage.py runserver
 
 
