@@ -26,6 +26,7 @@ The project demonstrates **full-stack development** concepts — integrating fro
 | Praneeth M | 4MC23IS073 |
 | Dhanush Gowda | 4MC23IS030 |
 | Nithin H R | 4MC23IS067 |
+| Charan | 4MC23IS131 |
 
 ---
 
