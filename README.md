@@ -56,12 +56,8 @@ The project demonstrates **full-stack development** concepts — integrating fro
 
 ## ⚙️ Setup Instructions
 
-```bash
-### 1️⃣ Clone the repository
-```bash
-# 1. git clone https://github.com/Pranavv718/Micro-project-fullstack--11-.git
-# 2. cd Micro-project-fullstack--11-
-Make sure you have Python 3.9+ installed on your system.
+git clone https://github.com/Pranavv718/Micro-project-fullstack--11-.git
+cd Micro-project-fullstack--11-
 python -m venv venv
 venv\Scripts\activate       # for Windows
 # or
@@ -72,6 +68,7 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+
 
 
 
